@@ -1,0 +1,82 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #e69cc1;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+form input {
+    padding: 10px;
+    margin: 5px;
+    width: 40%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #5cb85c;
+    color: white;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table td button {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #f0ad4e;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+table td button:hover {
+    background-color: #ec971f;
+}
+
+table td .editBtn {
+    background-color: #5bc0de;
+}
+
+table td .editBtn:hover {
+    background-color: #31b0d5;
+}
