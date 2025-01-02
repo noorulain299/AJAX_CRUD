@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP Ajax CRUD</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2 style="color: palevioletred;">---     PHP Ajax CRUD Using JQuery      ---</h2>
+        
+        <!-- Add User Form -->
+        <form id="addUserForm">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <button type="submit">Add User</button>
+        </form>
+
+        <!-- Update User Form (hidden by default) -->
+        <form id="updateUserForm" style="display: none;">
+            <input type="hidden" id="updateId">
+            <input type="text" id="updateName" placeholder="Name" required>
+            <input type="email" id="updateEmail" placeholder="Email" required>
+            <button type="submit">Update User</button>
+        </form>
+
+        <!-- User Table -->
+        <table id="userTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
